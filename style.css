@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+ 
+header {
+    background-color: aqua;
+    text-align: center;
+    text-decoration: none;
+    width: 100vw;
+    padding: 114px 96px;
+    
+   
+}
+
+.logo {
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+
+    
+}
+nav {
+    background-color: #ffffff;
+    justify-content: space-between;
+    display: flex;
+    
+    
+}
+
+
+ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: inter;
+    font-size: 16px;
+    gap: 50px; 
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #18191F;
+    padding: 10px; 
+}
+
+.login a{
+    color:#4CAF4F;
+    list-style-type: none;
+       
+}
+ 
+.register a {
+    text-decoration: none;
+
+
+
+}
+.login {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    list-style-type: none;
+   
+    
+
+}
+.singup {
+    background-color: #4CAF4F;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 6px;
+    list-style-type: none;
+    
+}
+
+.singup a {
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+main {
+    background-color: #ccc9c9;
+    color:#4D4D4D;
+    display: flex;
+    padding: 114px 96px; 
+}
+#Hero {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+h1{
+    font-size: 64px;
+    color:#4D4D4D;
+    font-weight:600px;
+    line-height: 76px;
+}
+.green {
+    color: #4CAF4F;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding:32px 14px ;
+}
+
+button {
+    display: flex;
+    padding: 14px 32px;
+    gap: 32px;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+
+}
+
+
+
+
+
+
