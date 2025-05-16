@@ -1,133 +1,199 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Inter", sans-serif;
+body {
+  font-family: "Inter", sans-serif;
 }
- 
+
 header {
-    background-color: aqua;
-    text-align: center;
-    text-decoration: none;
-    width: 100vw;
-    padding: 114px 96px;
-    
-   
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  width: 100vw;
+  padding: 114px 96px;
 }
 
 .logo {
-    display: flex;
-    padding: 30px;
-    gap: 10px;
-
-    
+  display: flex;
+  padding: 30px;
+  gap: 10px;
 }
 nav {
-    background-color: #ffffff;
-    justify-content: space-between;
-    display: flex;
-    
-    
+  background-color: #ffffff;
+  justify-content: space-between;
+  display: flex;
 }
 
-
-ul{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    font-family: inter;
-    font-size: 16px;
-    gap: 50px; 
-    list-style-type: none;
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inter;
+  font-size: 16px;
+  gap: 50px;
+  list-style-type: none;
 }
 
 .menu a {
-    text-decoration: none;
-    color: #18191F;
-    padding: 10px; 
+  text-decoration: none;
+  color: #18191f;
+  padding: 10px;
 }
 
-.login a{
-    color:#4CAF4F;
-    list-style-type: none;
-       
+.login a {
+  color: #4caf4f;
+  list-style-type: none;
 }
- 
+
 .register a {
-    text-decoration: none;
-
-
-
+  text-decoration: none;
 }
 .login {
-    display: flex;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-    list-style-type: none;
-   
-    
-
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  list-style-type: none;
 }
 .singup {
-    background-color: #4CAF4F;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 6px;
-    list-style-type: none;
-    
+  background-color: #4caf4f;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 6px;
+  list-style-type: none;
 }
 
 .singup a {
-    color: #fff;
-    padding: 10px;
-    margin: 20px;
+  color: #fff;
+  padding: 10px;
+  margin: 20px;
 }
 
 main {
-    background-color: #ccc9c9;
-    color:#4D4D4D;
-    display: flex;
-    padding: 114px 96px; 
+  background-color: #ccc9c9;
+  color: #717171;
+
+  padding: 114px 96px;
 }
 #Hero {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-
-h1{
-    font-size: 64px;
-    color:#4D4D4D;
-    font-weight:600px;
-    line-height: 76px;
+h1 {
+  font-size: 64px;
+  color: #4d4d4d;
+  font-weight: 600px;
+  line-height: 76px;
 }
 .green {
-    color: #4CAF4F;
+  color: #4caf4f;
 }
 
 h5 {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    padding:32px 14px ;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 32px 14px;
 }
 
 button {
-    display: flex;
-    padding: 14px 32px;
-    gap: 32px;
-    border-radius: 4px;
-    background-color: #4CAF4F;
-
+  display: flex;
+  padding: 14px 32px;
+  gap: 32px;
+  border-radius: 4px;
+  background-color: #4caf4f;
 }
 
+#Hero a {
+  color: #fff;
+  text-decoration: none;
+}
+#clients {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding: 70px;
+  background-color: #fff;
+}
+.info h2 h3 {
+  align-items: center;
+  gap: 40px;
+}
+.info h2 {
+  font-size: 36px;
+}
+.info h3 {
+  font-size: 16px;
+}
 
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 98px;
+}
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
 
+#community {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.community h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line: 44px;
+}
+.community h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
 
+#service {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+}
+#service img {
+  background-color: #d3f0d4;
+  border-radius: 18px 5px 10px 5px;
+}
+#service h3 {
+  font-size: 36px;
+}
 
+.membership {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 24px;
+}
+.national {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 24px;
+}
+.clubs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 24px;
+}
