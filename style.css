@@ -6,6 +6,9 @@
 
 body {
   font-family: "Inter", sans-serif;
+  padding: 114px 96px;
+  /* padding: 144px; */
+  /* width: 1440px; */
 }
 
 header {
@@ -76,12 +79,13 @@ main {
   background-color: #ccc9c9;
   color: #717171;
 
-  padding: 114px 96px;
+  /* padding: 114px 96px; */
 }
 #Hero {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #f5f7fa;
 }
 
 h1 {
@@ -142,7 +146,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  margin-bottom: 20px;
 }
 
 #community {
@@ -153,7 +157,7 @@ button {
 .community h2 {
   font-size: 36px;
   font-weight: 600;
-  line: 44px;
+  margin-bottom: 8px;
 }
 .community h3 {
   font-size: 16px;
@@ -196,4 +200,223 @@ button {
   align-items: center;
   text-align: center;
   padding: 32px 24px;
+}
+
+#Unlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px 0px;
+  background-color: #f5f7fa;
+
+  /* align-items: center; */
+}
+
+.contentleft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 661px;
+}
+
+.contentleft h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  gap: 20px;
+}
+.contentleft p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #717171;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contentleft button {
+  border-color: #4caf4f;
+}
+.contentleft a {
+  color: #fff;
+  text-decoration: none;
+}
+#achievements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 144px;
+}
+.greenbusi {
+  color: #4caf4f;
+}
+.donnees {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: flex-end;
+  grid-gap: 50px;
+}
+.icon {
+  display: flex;
+  gap: 20px;
+}
+.icon h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.icon p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #18191f;
+}
+
+.helping h2 {
+  font-size: 36px;
+  width: 540px;
+}
+
+#calendar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px 0px;
+  background-color: #f5f7fa;
+  padding: 70px;
+
+  /* align-items: center; */
+}
+
+.photocalendar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 661px;
+}
+
+.designcontent {
+  width: 661px;
+  margin-top: 50px;
+  margin: auto;
+}
+.designcontent h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  gap: 20px;
+}
+.designcontent p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #717171;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.designcontent button {
+  border-color: #4caf4f;
+}
+.designcontent a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#client {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px 0px;
+  background-color: #fff;
+  padding: 70px;
+
+  /* align-items: center; */
+}
+
+.infosclient {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 661px;
+}
+
+.clientcontent {
+  width: 661px;
+  margin-top: 50px;
+  margin: auto;
+}
+.clientcontent h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  gap: 20px;
+}
+.clientcontent p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #717171;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.clientcontent a {
+  color: #4caf4f;
+  text-decoration: none;
+}
+
+.clientlogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 98px;
+}
+#updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+  background-color: #f5f7fa;
+}
+.updatestitle {
+  margin-bottom: 45px;
+}
+.updatestitle h2 {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+.updatestitle p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.infocard {
+  background-color: #f5f7fa;
+  border-radius: 8px;
+  box-shadow: 0px 6px 16px 0px;
+  text-align: center;
+  padding: 16px;
+}
+.infocard a {
+  text-decoration: none;
+  color: #4caf4f;
+  text-align: center;
+}
+.infocard p {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 16px;
 }
